@@ -1,2 +1,3 @@
 # PMG-SQL-Assessment
-Graduate Leadership Program: SQL Assessment
+Hi guys! I am Jiaxin and here is my SQL Assessment for Data Analytics track. 
+:point_right: 
