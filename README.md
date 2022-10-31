@@ -3,7 +3,8 @@ Hi guys! I am Jiaxin and here is my SQL Assessment for Data Analytics track.
 
 :point_right: [SQL File ](https://github.com/yjjjjxx/PMG-SQL-Assessment/blob/main/PMG.sql)
 
-:point_down: for your ease of reference
+:point_down: **For our ease of reference**
+
 **Question #0 Select the first 2 rows from the marketing data**
 
 ```mysql
