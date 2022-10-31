@@ -3,6 +3,7 @@ Hi guys! I am Jiaxin and here is my SQL Assessment for Data Analytics track.
 
 :point_right: [SQL File ](https://github.com/yjjjjxx/PMG-SQL-Assessment/blob/main/PMG.sql)
 
+:point_down: for your ease of reference
 **Question #0 Select the first 2 rows from the marketing data**
 
 ```mysql
@@ -130,7 +131,7 @@ The most efficient store is brand 2's store in CA which has 1.3736% click throug
 **Question #5 (Challenge) Generate a query to rank in order the top 10 revenue producing states**
 
 ```mysql
-select *, rank() over (order by loc_revenue) as ranking
+select *, rank() over (order by loc_revenue desc) as ranking
 from (select store_location, sum(revenue) as loc_revenue
 	  from PMG.store_revenue
 	  group by store_location
@@ -139,6 +140,6 @@ from (select store_location, sum(revenue) as loc_revenue
 
 | store_location   | loc_revenue | ranking |
 | ---------------- | ----------- | ------- |
-| United States-TX | 9629        | 1       |
+| United States-CA | 235237      | 1       |
 | United States-NY | 51984       | 2       |
-| United States-CA | 235237      | 3       |
+| United States-TX | 9629        | 3       |
