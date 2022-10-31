@@ -127,7 +127,7 @@ group by brand_id, geo;
 | 3        | NULL | NULL   | NULL       |
 | NULL     | MN   | 4.5092 | NULL       |
 
-The most efficient store is brand 2's store in CA which has 1.3736% click through rate (CTR) and gets an effective earning of $10400.4165 for every 1000 ad impressions (eCPM). In order to evaluate each store's efficiency, I grouped the brand id and store location to calcuate the click through rate (CTR) and Effective Cost per Mille (eCPM) for each brand's store in different locations. For click through rate, the highest rate appears in MN but there is no corresponding MN's data in store_revenue dataset. And the CTR rates are pretty similar for the rest of stores. For Effective Cost per Mille (eCPM), the highest value is brand 2' store in CA which is much more higher than other stores. Thus, the most efficient store is brand 2's store in CA. 
+The most efficient store is brand 2's store in CA which has a 1.3736% click-through rate (CTR) and gets an effective earning of $10400.4165 for every 1000 ad impressions (eCPM). In order to evaluate each store's efficiency, I grouped the brand id and store location to calculate the click-through rate (CTR) and Effective Cost per Mille (eCPM) for each brand's store in different places. For click-through rate, the highest rate appears in MN but there is no corresponding MN data in the store_revenue dataset. And the CTR rates are pretty similar for the rest of the stores. For Effective Cost per Mille (eCPM), the highest value is the brand 2' store in CA which is much higher than other stores. Thus, the most efficient store is brand 2's store in CA. 
 
 **Question #5 (Challenge) Generate a query to rank in order the top 10 revenue producing states**
 
