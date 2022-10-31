@@ -82,7 +82,7 @@ and right(store_location,2) = geo;
 | 2016-01-02 | 2        | United States-TX | 3423    | 2016-01-02 | TX   | 3643        | 23     |
 | 2016-01-02 | 2        | United States-NY | 2342    | 2016-01-02 | NY   | 4643        | 85     |
 | 2016-01-03 | 2        | United States-CA | 234234  | 2016-01-03 | CA   | 5258        | 36     |
-| 2016-01-06 | 3        | United States-TX | 3       |            |      | 0           | 0      |
+| 2016-01-06 | 3        | United States-TX | 3       | NULL       | NULL | NULL        | NULL   |
 | 2016-01-03 | 2        | United States-TX | 3       | 2016-01-03 | TX   | 2353        | 57     |
 | 2016-01-03 | 2        | United States-NY | 234     | 2016-01-03 | NY   | 4735        | 63     |
 | 2016-01-04 | 2        | United States-CA | 2       | 2016-01-04 | CA   | 7854        | 85     |
